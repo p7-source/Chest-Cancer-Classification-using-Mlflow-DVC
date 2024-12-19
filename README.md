@@ -1,1 +1,1 @@
-# end-toe-nd-chest-canser-classification-with-Mlflow
+# end-to-end-chest-canser-classification-with-Mlflow
