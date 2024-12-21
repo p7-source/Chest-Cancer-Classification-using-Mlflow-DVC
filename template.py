@@ -34,13 +34,11 @@ list_of_files = [
 
 for filepath in list_of_files:
     filepath = Path(filepath)
-    print(filepath, "complete filepath")
     filedir, filename = os.path.split(filepath)
-    print(filedir,      filename)
+    
     
     if filedir !="":
         os.makedirs(filedir, exist_ok=True)
-        print("directory is created")
         logging.info(f"Creating directory; {filedir} for the file: {filename}")
         
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
