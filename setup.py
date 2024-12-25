@@ -6,8 +6,8 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Chest-Cancer-Classification-Project"
-AUTHOR_USER_NAME = "prassadh"
+REPO_NAME = "Chest-Cancer-Classification-using-Mlflow-DVC"
+AUTHOR_USER_NAME = "p7-source"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "prassadht@gmail.com"
 
